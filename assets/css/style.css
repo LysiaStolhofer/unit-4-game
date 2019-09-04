@@ -1,10 +1,11 @@
 /*general */
 body {
-    background-image: url("../images/photo-1485724417692-19b9fb72d5ce.jpg")
+    background-image: url("../images/pexels-photo-255379.jpeg")
 }
 
 div {
-    background-color: white; 
+    color: rgb(97, 8, 63); 
+    background-color: lightblue; 
     margin: 10px; 
     width: 25%;
 }
@@ -12,16 +13,28 @@ div {
 div {
      border: solid 2px antiquewhite;
      padding: 10px; 
+
 }
 
-h1, h3, span {
+h1, h2,  h3, span {
     font-weight: bold; 
     text-align: center; 
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Economica', sans-serif;
 }
 
 h1 {
     font-size: 30px;
+    font-family: 'Homemade Apple', cursive;
+    color: darkmagenta;
+}
+
+h2{
+    font-size: 22px; 
+    color: darkmagenta; 
+}
+
+h3 {
+    font-size: 23px; 
 }
 
 ol {
@@ -33,16 +46,20 @@ ul {
     text-indent: 20px; 
 }
 
-/* mroe specific*/
+li {
+    font-size: 21px; 
+}
+
+
 div.header, div.gems {
-    background-color: #e0e0eb;
+    background-color: lightblue;
 }
 
 div.header, div.instructions {
     width: 50%;
+    font-family: 'Economica', sans-serif;
 }
 
-/*classes*/
 .numberNeeded, .winAndLoss {
     float: left; 
     width: 15%; 
@@ -56,6 +73,7 @@ div.header, div.instructions {
 
 .gems {
     clear: both; 
+    align-items: center; 
 }
 
 .imageGem {
@@ -63,9 +81,9 @@ div.header, div.instructions {
     margin: 10px; 
 }
 
-/*Ids*/
+
 #blue {
-    color: rgb(73, 73, 233);
+    color: rgb(73, 169, 233);
 }
 
 #green {
@@ -77,5 +95,88 @@ div.header, div.instructions {
 }
 
 #yellow {
-    color: rgb(253, 253, 85); 
+    color: rgb(224, 194, 24); 
+}
+
+
+
+/* media query 980px*/
+@media screen and (max-width: 980px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 960px;
+	}
+	.main-section {
+		width:50%;
+		float: left;
+		margin-right: 20px
+	}
+	.auth-image{
+		width: 100%;
+		float: none;
+	}
+    .sidebar {
+    	float: left;
+		margin-left: 20px;  	
+    }
+    /*smaller desktop*/
+}
+
+/* media query 768px*/
+@media screen and (max-width: 768px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 768px;
+	}
+	.main-section, .container{
+		width: 75%;
+		float: none;
+		margin-right: 1px
+	}
+	.auth-image{
+		width: 200px;
+		height: auto;
+		margin-top: 10px;
+		float: left;
+		margin-right: 25px;
+	}
+    .sidebar {
+    	width:100%;
+    	max-width: 75%;
+		float: none;
+		margin-left: 1px;
+		margin-right: 1px
+	    }
+/*portfolio page*/
+	.clear{
+		clear: both;
+		}
+   /*tablet desktop*/
+}
+
+/* media query 640px*/
+@media screen and (max-width: 640px) {
+
+	.container{
+		margin-left: 130px;
+		margin-right: 130px;
+		max-width: 640px;
+	}
+	.main-section, .container{
+		width: 75%;
+		float: none;
+		margin-right: 1px
+	}
+	.auth-image{
+		width: 100%;
+		float: none;
+	}
+	#logo, nav{
+		width: 100%;
+		float: none;
+	}
 }

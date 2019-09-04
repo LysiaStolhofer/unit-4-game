@@ -17,7 +17,7 @@ var wins = 0;
 var losses = 0; 
 
 //reset the game to new start
-$('#numWin').text(wins);
+$('#numWins').text(wins);
 $('#numLoss').text(losses);
 
 function reset() {
@@ -36,7 +36,7 @@ function reset() {
 function congrats() {
     alert("You won!");
     wins++;
-    $('#numWin').text(wins);
+    $('#numWins').text(wins);
     reset();
 }
 
