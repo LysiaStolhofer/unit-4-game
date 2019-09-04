@@ -1,6 +1,6 @@
 /*general */
 body {
-    background-image: url("../images/")
+    background-image: url("../images/photo-1485724417692-19b9fb72d5ce.jpg")
 }
 
 div {
@@ -17,6 +17,7 @@ div {
 h1, h3, span {
     font-weight: bold; 
     text-align: center; 
+    font-family: 'Amatic SC', cursive;
 }
 
 h1 {
