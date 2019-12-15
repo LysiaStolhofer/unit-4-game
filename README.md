@@ -35,6 +35,6 @@ _A super fun game to play!_
 - :page_facing_up: _config.yml
 - :page_facing_up: index.html
 ---------------------------------------------------------------------------------------------------------------------------------------
-:earth_americas: 
+:earth_americas: COming soon!
 
    - ENJOY - 
