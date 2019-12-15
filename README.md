@@ -26,11 +26,13 @@ _A super fun game to play!_
 - :file_folder: assets
   - :file_folder: css
     - :page_facing_up: style.css
+    - :page_facing_up: reset.css
   - :file_folder: images
-    - :page_facing_up: train5.jpg
+    - :page_facing_up: (7 Images)
   - :file_folder: javascript
-    - :page_facing_up: app.js
+    - :page_facing_up: game.js
 - :page_facing_up: README.md
+- :page_facing_up: _config.yml
 - :page_facing_up: index.html
 ---------------------------------------------------------------------------------------------------------------------------------------
 :earth_americas: 
